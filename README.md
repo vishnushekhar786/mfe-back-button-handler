@@ -12,21 +12,11 @@ npm install --save mfe-back-button-handler
 
 ## Usage
 
-```tsx
-import React, { Component } from 'react'
 
-import MyComponent from 'mfe-back-button-handler'
-import 'mfe-back-button-handler/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
-```
 
 // MFE1 - src/index.js
-import React, { useEffect } from 'react';
+}
+```import React, { useEffect } from 'react';
 import backButtonHandler from 'mfe-back-button-handler';
 
 const MFE1 = () => {
@@ -47,10 +37,12 @@ const MFE1 = () => {
 };
 
 export default MFE1;
-
+}
+```
 
 // MFE2 - src/index.js
-import React from 'react';
+}
+```import React from 'react';
 import backButtonHandler from 'mfe-back-button-handler';
 
 const MFE2 = () => {
@@ -67,6 +59,8 @@ const MFE2 = () => {
 };
 
 export default MFE2;
+}
+```
 
 
 
