@@ -15,7 +15,11 @@ npm install --save mfe-back-button-handler
 
 
 // MFE1 - src/index.js
-}
+
+Using the Back Button Handler in MFEs
+
+Each MFE can subscribe to back button events by registering a callback with the BackButtonHandler.
+
 ```import React, { useEffect } from 'react';
 import backButtonHandler from 'mfe-back-button-handler';
 
@@ -37,11 +41,13 @@ const MFE1 = () => {
 };
 
 export default MFE1;
-}
+
 ```
 
 // MFE2 - src/index.js
-}
+Navigating Between Microfrontends
+
+The library also provides a method for navigating between MFEs:
 ```import React from 'react';
 import backButtonHandler from 'mfe-back-button-handler';
 
@@ -59,7 +65,7 @@ const MFE2 = () => {
 };
 
 export default MFE2;
-}
+
 ```
 
 
